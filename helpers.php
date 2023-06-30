@@ -137,6 +137,12 @@
             </div>
         </div>'; 
 
+	$html .= '<script>
+ 		jQuery(function() { 
+			localStorage.clear();
+		});
+ 	</script>';
+
       	return $html;
   	}
   	/* FIM SHORTCODE GERAL */
